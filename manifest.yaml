@@ -1,0 +1,6 @@
+applications:
+- name: employee-service
+  path: target/employee-1.jar
+  random-route: true
+  env:
+    message.key: Hello from manifest
